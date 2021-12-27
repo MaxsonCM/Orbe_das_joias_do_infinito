@@ -93,10 +93,10 @@ Adafruit_NeoPixel fitaLED(numLEDs, pinoLed, NEO_GRB + NEO_KHZ800);
 // Definição de algumas cores em formato RGB
 uint32_t azul = fitaLED.Color(0,0,255);
 uint32_t verde = fitaLED.Color(0,128,0);
-uint32_t amarelo = fitaLED.Color(218,165,32);
+uint32_t amarelo = fitaLED.Color(255,215,0);//(218,165,32);
 uint32_t branco = fitaLED.Color(255,255,255);
 uint32_t vermelho = fitaLED.Color(218,0,0);
-uint32_t roxo = fitaLED.Color(138,43,226);
+uint32_t roxo = fitaLED.Color(128,0,128);//(138,43,226);
 
 void setup() {
 
